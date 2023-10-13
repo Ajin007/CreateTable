@@ -5,10 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoTableCreation</title>
     <link rel="icon" type="image/png" href="image/luf.jpg">
-    <script src="script/script.js"></script>
+  
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <button class="fullscreenbutton">click to create table </button>
+    <div class="container">
+        <textarea name="writetext" id="createText" cols="30" rows="3" class="story"></textarea>
+        <br>
+
+        <button id="set-text" type="button">click me</button>
+        
+        <br>
+        
+    </div>
+    <br>
+   <div class="container"> <button class="fullscreenbutton" onclick="createTable()" >Table creation </button>
+    <br>
+    <button id="delete-text" type="button">Refresh</button></div>
+   <script src="script/script.js"></script>
 </body>
 </html>

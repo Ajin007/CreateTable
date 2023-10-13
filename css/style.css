@@ -1,11 +1,11 @@
 
 body {
 
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh; /* This ensures the body takes up the full viewport height */
+    /* height: 100vh; This ensures the body takes up the full viewport height */
     margin: 0; 
   
 }
