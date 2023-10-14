@@ -5,8 +5,11 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* height: 100vh; This ensures the body takes up the full viewport height */
+    height: 100vh;
     margin: 0; 
+    background-image: url("/image/luf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   
 }
 button.fullscreenbutton{
@@ -28,4 +31,94 @@ button.fullscreenbutton:hover{
 }
 
 
-      
+textarea.story {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #9f9f9f;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    transition: border-color 0.3s, transform 0.2s;
+    font-size: 24px;
+    
+}
+
+textarea.story:focus {
+    border-color: #fbff00; /* Change the border color on focus */
+    outline: none; /* Remove the default focus outline */
+   
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the entire page */
+
+
+/* Style for the login modal */
+.loginmodel {
+    background-color: white;
+    border-radius: 5px solid #fbff00 ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the login form */
+.login-form {
+    text-align: center;
+}
+
+/* Style for form labels */
+.login-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Style for form inputs */
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the submit button */
+#login-submit {
+    background-color: #029994;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+#login-submit:hover {
+    background-color: #029994;
+}
+
+
+/* Style for the "Sign up" link */
+.login-form a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Style for the close button */
+.close {
+    position: relative;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Responsive styling (adjust as needed) */
+@media (max-width: 500px) {
+    .loginmodel {
+        width: 100%;
+    }
+}
+

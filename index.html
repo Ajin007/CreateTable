@@ -10,18 +10,19 @@
 </head>
 <body>
     <div class="container">
-        <textarea name="writetext" id="createText" cols="30" rows="3" class="story"></textarea>
+        <textarea name="writetext" id="createText" cols="70" rows="3" class="story"></textarea>
         <br>
 
-        <button id="set-text" type="button">click me</button>
+        <button id="set-text" type="button" class="fullscreenbutton">Help?</button>
         
         <br>
         
     </div>
     <br>
-   <div class="container"> <button class="fullscreenbutton" onclick="createTable()" >Table creation </button>
+   <div class="container"> <button class="fullscreenbutton" id="full-screen-button"onclick="createTable()" >Switch </button>
     <br>
-    <button id="delete-text" type="button">Refresh</button></div>
+    <button id="delete-text" type="button" class="fullscreenbutton">Refresh</button></div>
+    
    <script src="script/script.js"></script>
 </body>
 </html>
